@@ -26,7 +26,7 @@ beforeEach(() => {
 
 // ================= Homepage Load Test =================
 
-describe('Homepage Load Test', () => {
+describe('HOMEPAGE', () => {
   it('should display hero section text', () => {
     cy.get('h2').should('contain', 'Reclaim Your Energy with Encer Treatment');
   });
